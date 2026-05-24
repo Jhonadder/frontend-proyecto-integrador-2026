@@ -11,18 +11,18 @@ body {
 }
 
 .header {
-  background-color: #5c4033;
-  color: white;
-  padding: 18px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
+  background-color: #5c4033;
+  flex-wrap: wrap;
 }
 
-.logo {
+/* .logo {
   font-size: 24px;
   font-weight: bold;
-}
+} */
 
 .nav {
   display: flex;
@@ -211,4 +211,41 @@ button:hover {
   .producto {
     width: 90%;
   }
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.social-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.social-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-nav li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+}
+
+.social-nav img {
+  width: 30px;
+  height: 30px;
 }
