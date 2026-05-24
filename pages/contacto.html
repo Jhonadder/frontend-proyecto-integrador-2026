@@ -1,40 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Muebles Hogar - Contacto</title>
-  <link rel="stylesheet" href="../css/styles.css">
-</head>
-<body>
-  <header class="header">
-    <div class="logo">Muebles Hogar</div>
-    <nav class="nav">
-      <a href="../index.html">Inicio</a>
-      <a href="productos.html">Productos</a>
-      <a href="nosotros.html">Nosotros</a>
-      <a href="contacto.html">Contacto</a>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muebles Hogar - Contacto</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-container">
+        <a href="../index.html">
+          <img
+            src="../img/logo.png"
+            alt="Jhonadder Muebles Modernos"
+            class="logo-img"
+          />
+        </a>
+      </div>
 
-  <main class="seccion contacto">
-    <h1>Contacto</h1>
-    <form class="formulario">
-      <label>Nombre</label>
-      <input type="text" placeholder="Ingrese su nombre">
+      <nav class="nav">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
 
-      <label>Email</label>
-      <input type="email" placeholder="Ingrese su email">
+    <main class="seccion contacto">
+      <h1>Contacto</h1>
+      <form class="formulario" action="" method="POST">
+        <label>Nombre</label>
+        <input
+          id="nombre"
+          type="text"
+          name="nombre"
+          placeholder="Ingrese su nombre"
+        />
 
-      <label>Mensaje</label>
-      <textarea placeholder="Escriba su mensaje"></textarea>
+        <label for="email">Email</label>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Ingrese su email"
+        />
 
-      <button type="submit">Enviar</button>
-    </form>
-  </main>
+        <label for="mensaje">Mensaje</label>
+        <textarea
+          id="mensaje"
+          name="mensaje"
+          placeholder="Escriba su mensaje"
+        ></textarea>
 
-  <footer class="footer">
-    <p>© 2026 Muebles Hogar</p>
-  </footer>
-</body>
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+
+    <footer class="footer">
+      <nav class="social-nav">
+        <ul>
+          <li>
+            <img src="../img/instagram.png" alt="logo-Instagram" />
+            Instagram
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <img src="../img/tiktok.png" alt="logo-TikTok" />
+            TikTok
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <img src="../img/x.png" alt="logo-X" />
+            X
+          </li>
+        </ul>
+      </nav>
+
+      <p>© 2026 Muebles Modernos</p>
+    </footer>
+  </body>
 </html>

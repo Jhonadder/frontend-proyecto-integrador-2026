@@ -27,8 +27,21 @@ body {
 .nav {
   display: flex;
   gap: 20px;
+  justify-content: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+  text-decoration: none;
 }
-
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+/* .nav li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+} */
 .nav a {
   color: white;
   text-decoration: none;
@@ -39,8 +52,9 @@ body {
   color: #ffd7a8;
 }
 
-.hero {
-  min-height: 450px;
+.principal {
+  width: 80%;
+  margin: auto;
   padding: 40px;
   display: flex;
   align-items: center;
@@ -48,21 +62,21 @@ body {
   gap: 30px;
 }
 
-.hero-texto {
+.principal-texto {
   max-width: 500px;
 }
 
-.hero h1 {
+.principal h1 {
   font-size: 42px;
   margin-bottom: 15px;
 }
 
-.hero p {
+.principal p {
   font-size: 18px;
   margin-bottom: 25px;
 }
 
-.hero img,
+.principal img,
 .nosotros img {
   width: 380px;
   max-width: 100%;
@@ -196,14 +210,14 @@ button:hover {
     gap: 10px;
   }
 
-  .hero,
+  .principal,
   .nosotros {
     flex-direction: column;
     text-align: center;
     padding: 25px;
   }
 
-  .hero h1 {
+  .principal h1 {
     font-size: 32px;
   }
 
@@ -222,7 +236,7 @@ button:hover {
   width: 320px;
   max-width: 100%;
   height: auto;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .social-nav {
@@ -248,4 +262,5 @@ button:hover {
 .social-nav img {
   width: 30px;
   height: 30px;
+  border-radius: 6px;
 }
