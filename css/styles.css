@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f1eb;
+  color: #333;
+}
+
+.header {
+  background-color: #5c4033;
+  color: white;
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #ffd7a8;
+}
+
+.hero {
+  min-height: 450px;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.hero-texto {
+  max-width: 500px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.hero img,
+.nosotros img {
+  width: 380px;
+  max-width: 100%;
+}
+
+.boton,
+button {
+  background-color: #8b5e3c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.boton:hover,
+button:hover {
+  background-color: #5c4033;
+}
+
+.seccion {
+  padding: 40px;
+  text-align: center;
+}
+
+.seccion h1,
+.seccion h2 {
+  margin-bottom: 20px;
+}
+
+.texto-centro {
+  margin-bottom: 25px;
+}
+
+.categorias,
+.productos {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card,
+.producto {
+  background-color: white;
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.card img,
+.producto img {
+  width: 160px;
+  height: 130px;
+}
+
+.producto strong {
+  color: #5c4033;
+  font-size: 18px;
+}
+
+.nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  text-align: left;
+}
+
+.nosotros div {
+  max-width: 520px;
+}
+
+.nosotros p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.contacto {
+  min-height: 450px;
+}
+
+.formulario {
+  background-color: white;
+  max-width: 450px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.formulario textarea {
+  height: 120px;
+  resize: none;
+}
+
+.footer {
+  background-color: #5c4033;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .hero,
+  .nosotros {
+    flex-direction: column;
+    text-align: center;
+    padding: 25px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .card,
+  .producto {
+    width: 90%;
+  }
+}

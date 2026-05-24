@@ -1,0 +1,14 @@
+<svg width="420" height="300" viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="300" fill="#f8efe6"/>
+  <rect x="40" y="195" width="340" height="35" fill="#d6b18a"/>
+  <rect x="70" y="125" width="140" height="60" rx="12" fill="#b8845f"/>
+  <rect x="55" y="160" width="35" height="55" rx="8" fill="#8b5e3c"/>
+  <rect x="190" y="160" width="35" height="55" rx="8" fill="#8b5e3c"/>
+  <rect x="88" y="95" width="105" height="55" rx="12" fill="#c99670"/>
+  <rect x="245" y="155" width="95" height="18" rx="4" fill="#8b5e3c"/>
+  <rect x="260" y="173" width="10" height="42" fill="#5c4033"/>
+  <rect x="315" y="173" width="10" height="42" fill="#5c4033"/>
+  <rect x="260" y="65" width="60" height="65" fill="#ffffff" stroke="#5c4033" stroke-width="4"/>
+  <circle cx="290" cy="95" r="18" fill="#f2d4b7"/>
+  <text x="210" y="45" text-anchor="middle" font-family="Arial" font-size="22" fill="#5c4033">Muebles Hogar</text>
+</svg>

@@ -1,0 +1,8 @@
+<svg width="220" height="170" viewBox="0 0 220 170" xmlns="http://www.w3.org/2000/svg">
+  <rect width="220" height="170" fill="#f8efe6"/>
+  <rect x="45" y="65" width="130" height="25" rx="5" fill="#8b5e3c"/>
+  <rect x="60" y="90" width="15" height="60" fill="#5c4033"/>
+  <rect x="145" y="90" width="15" height="60" fill="#5c4033"/>
+  <rect x="35" y="55" width="150" height="15" rx="4" fill="#b8845f"/>
+  <text x="110" y="30" text-anchor="middle" font-family="Arial" font-size="16" fill="#5c4033">Mesa</text>
+</svg>

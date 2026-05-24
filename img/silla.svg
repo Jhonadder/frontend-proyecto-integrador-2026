@@ -1,0 +1,8 @@
+<svg width="220" height="170" viewBox="0 0 220 170" xmlns="http://www.w3.org/2000/svg">
+  <rect width="220" height="170" fill="#f8efe6"/>
+  <rect x="75" y="45" width="70" height="55" rx="8" fill="#b8845f"/>
+  <rect x="70" y="95" width="80" height="22" rx="5" fill="#8b5e3c"/>
+  <rect x="78" y="117" width="12" height="40" fill="#5c4033"/>
+  <rect x="130" y="117" width="12" height="40" fill="#5c4033"/>
+  <text x="110" y="25" text-anchor="middle" font-family="Arial" font-size="16" fill="#5c4033">Silla</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg width="220" height="170" viewBox="0 0 220 170" xmlns="http://www.w3.org/2000/svg">
+  <rect width="220" height="170" fill="#f8efe6"/>
+  <rect x="55" y="35" width="110" height="120" rx="5" fill="#8b5e3c"/>
+  <rect x="65" y="50" width="90" height="12" fill="#f2d4b7"/>
+  <rect x="65" y="85" width="90" height="12" fill="#f2d4b7"/>
+  <rect x="65" y="120" width="90" height="12" fill="#f2d4b7"/>
+  <circle cx="80" cy="75" r="8" fill="#5c4033"/>
+  <rect x="105" y="68" width="30" height="15" fill="#5c4033"/>
+  <text x="110" y="25" text-anchor="middle" font-family="Arial" font-size="16" fill="#5c4033">Estante</text>
+</svg>
